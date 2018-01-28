@@ -1,0 +1,128 @@
+/* Color Palette
+##003399 - dark blue
+#ffccdd - light pink
+#ff6699 - pink
+#EF233C - red
+*/
+
+/* Global styles
+-------------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+}
+h1, h2 {
+  font-family: 'Abel', cursive;
+  font-weight: 400;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+h3 {
+  margin: 0;
+}
+a {
+  color: #EF233C;
+}
+a:hover {
+  text-decoration: none;
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+.col-narrow {
+  width: 30%;
+  float: left;
+}
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.btn {
+  text-decoration: none;
+  background: #ffccdd;
+  color:light pink;
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Header and Footer
+-------------------------*/
+header, footer {
+  background: #003399;
+  color: #ffccdd;
+}
+/* header */
+header h1, header h2 {
+  color: #ff6699;
+  margin: 0;
+  text-align: center;
+}
+.profile-img {
+  border-radius: 50%;
+}
+/* footer */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+
+
+/* Work Experience
+-------------------------*/
+.work {
+  background: #ff6699;
+}
+h3 ~ p {
+  margin: 0;
+}
+.job-description {
+  margin-bottom: 25px;
+}
+.job-description p:first-of-type {
+  margin-top: 0;
+}
+
+
+/* Education
+-------------------------*/
+.education {
+  background: #ffccdd;
+}
+p + h3 + h2{
+  position: static;
+  margin-top: 0;
+}
+.edu{
+    background-image: url("/Users/demetraefraimidou/Desktop/GitHub/3-css-essential-training-1-2-resume-files-Demetraefraimidou/CSS 2.0/Images/campus.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+     padding: 50px;
+}
